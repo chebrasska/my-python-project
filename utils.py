@@ -14,3 +14,8 @@ def to_upper(text):
 def subtract(a, b):
     """Вычитает b из a"""
     return a - b
+def divide(a, b):
+    """Делит a на b"""
+    if b == 0:
+        return "Ошибка: деление на ноль"
+    return a / b
