@@ -11,3 +11,6 @@ def multiply(a, b):
 def to_upper(text):
     """Переводит строку в верхний регистр"""
     return text.upper()
+def subtract(a, b):
+    """Вычитает b из a"""
+    return a - b
