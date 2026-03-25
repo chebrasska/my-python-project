@@ -1,4 +1,4 @@
-from utils import greet, multiply
+from utils import greet, multiply, subtract, divide
 from config import APP_NAME, VERSION
 
 def show_menu():
